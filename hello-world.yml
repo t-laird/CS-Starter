@@ -1,12 +1,10 @@
 database:
-  driverClass: com.mysql.jdbc.Driver
+  driverClass: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/campspot_starter
   user: root
   password:
-  url: jdbc:mysql://localhost:3306
-  properties:
-    charSet: UTF-8
   maxWaitForConnection: 1s
-  validationQuery: "/* DropWizard Health Check */ SELECT 1"
+  validationQuery: "SELECT 1"
   validationQueryTimeout: 10s
   minSize: 5
   maxSize: 25
@@ -16,6 +14,7 @@ template: Hello, %s!
 defaultName: Stranger
 
 server:
+  applicationConnectors:
     - type: http
       port: 8080
   adminConnectors:
