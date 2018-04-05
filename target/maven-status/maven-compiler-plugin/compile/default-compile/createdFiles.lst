@@ -1,0 +1,13 @@
+com/campspot/HelloWorldApplication.class
+com/campspot/health/TemplateHealthCheck.class
+com/campspot/HelloWorldConfiguration.class
+com/campspot/dao/CampsiteDAO.class
+com/campspot/api/Saying.class
+com/campspot/mapper/CampsiteMapper.class
+com/campspot/resources/HelloWorldResource.class
+com/campspot/domain/Campsite.class
+com/campspot/Service/CampsiteService.class
+com/campspot/api/Reservation.class
+com/campspot/CampsitesConfiguration.class
+com/campspot/resources/CampsitesResource.class
+com/campspot/core/Campsite.class
