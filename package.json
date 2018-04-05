@@ -1,0 +1,13 @@
+{
+  "name": "dropwizard-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "java -jar target/hello-world-1.3.0.jar server hello-world.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
