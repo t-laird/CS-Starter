@@ -2,4 +2,12 @@
 /Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/HelloWorldConfiguration.java
 /Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/resources/HelloWorldResource.java
 /Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/HelloWorldApplication.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/domain/Campsite.java
 /Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/api/Saying.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/dao/CampsiteDAO.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/core/Campsite.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/Service/CampsiteService.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/CampsitesConfiguration.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/api/Reservation.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/resources/CampsitesResource.java
+/Users/thomaslaird/IdeaProjects/dropwizard-tutorial/dropwizard-core/src/main/java/com/campspot/mapper/CampsiteMapper.java
