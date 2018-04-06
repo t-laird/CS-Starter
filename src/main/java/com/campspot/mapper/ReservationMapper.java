@@ -1,5 +1,5 @@
 package com.campspot.mapper;
-import com.campspot.domain.Campsite;
+import com.campspot.domain.Reservation;
 import org.skife.jdbi.v2.StatementContext;
 import org.skife.jdbi.v2.tweak.ResultSetMapper;
 
@@ -7,14 +7,19 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 
-public class CampsiteMapper implements ResultSetMapper<Campsite> {
+public class ReservationMapper implements ResultSetMapper<Reservation> {
     private static final String ID = "id";
-    private static final String NAME = "name";
+    private static final String CAMPSITEID = "campsiteId";
+    private static final String STARTDATE = "startDate";
+    private static final String ENDDATE = "endDate";
 
-    public Campsite map(int i, ResultSet resultSet, StatementContext statementContext)
+    public Reservation map(int i, ResultSet resultSet, StatementContext statementContext)
             throws SQLException {
-        Campsite campsite = new Campsite(resultSet.getString(NAME));
-        campsite.setId(resultSet.getInt(ID));
-        return campsite;
+        Reservation reservation = new Reservation(
+                resultSet.getString(STARTDATE),
+                resultSet.getString(ENDDATE),
+                resultSet.getInt(CAMPSITEID));
+        reservation.setId(resultSet.getInt(ID));
+        return reservation;
     }
 }

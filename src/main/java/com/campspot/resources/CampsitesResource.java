@@ -33,23 +33,4 @@ public class CampsitesResource {
     public Response getCampsite(@PathParam("id") final int id) {
         return Response.ok(campsiteService.getCampsite(id)).build();
     }
-
-
-
-
-
-
-
-
-//    private final CampsiteDAO campsitedao;
-//
-//    public CampsitesResource(CampsiteDAO campsitedao) {
-//        this.campsitedao = campsitedao;
-//    }
-
-//    @GET
-//    @UnitOfWork
-//    public List<Campsite> listCampsites() {
-//        return campsitedao.findAll();
-//    }
 }

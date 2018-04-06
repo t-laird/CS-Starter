@@ -1,12 +1,10 @@
 package com.campspot;
 
 import com.campspot.Service.CampsiteService;
-import com.campspot.core.Campsite;
-import com.campspot.dao.CampsiteDAO;
+import com.campspot.Service.ReservationService;
 import com.campspot.resources.CampsitesResource;
+import com.campspot.resources.ReservationResource;
 import io.dropwizard.Application;
-import io.dropwizard.db.PooledDataSourceFactory;
-import io.dropwizard.hibernate.HibernateBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import com.campspot.resources.HelloWorldResource;
@@ -54,5 +52,6 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
         environment.healthChecks().register("template", healthCheck);
         environment.jersey().register(resource);
         environment.jersey().register(new CampsitesResource(dbi.onDemand(CampsiteService.class)));
+        environment.jersey().register(new ReservationResource(dbi.onDemand(ReservationService.class)));
     }
 }

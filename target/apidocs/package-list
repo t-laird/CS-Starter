@@ -1,7 +1,6 @@
 com.campspot
 com.campspot.Service
 com.campspot.api
-com.campspot.core
 com.campspot.dao
 com.campspot.domain
 com.campspot.health

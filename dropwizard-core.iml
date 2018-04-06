@@ -114,5 +114,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: org.jdbi:jdbi:2.78" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: io.dropwizard:dropwizard-testing:0.7.1" level="project" />
   </component>
 </module>
