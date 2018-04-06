@@ -31,25 +31,7 @@ public class CampsitesResource {
     @Timed
     @Path("{id}")
     public Response getCampsite(@PathParam("id") final int id) {
+        System.out.println("INSIDE SPECIFIC CAMPSITE GET");
         return Response.ok(campsiteService.getCampsite(id)).build();
     }
-
-
-
-
-
-
-
-
-//    private final CampsiteDAO campsitedao;
-//
-//    public CampsitesResource(CampsiteDAO campsitedao) {
-//        this.campsitedao = campsitedao;
-//    }
-
-//    @GET
-//    @UnitOfWork
-//    public List<Campsite> listCampsites() {
-//        return campsitedao.findAll();
-//    }
 }
