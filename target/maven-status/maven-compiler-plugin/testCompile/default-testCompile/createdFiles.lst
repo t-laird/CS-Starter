@@ -1,0 +1,4 @@
+io/dropwizard/api/CampsiteEndpointTest.class
+io/dropwizard/resources/HelloWorldResourceTest.class
+io/dropwizard/resources/CampsiteResourceTest.class
+io/dropwizard/api/HelloWorldEndpointTest.class
